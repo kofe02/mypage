@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: cd ./afraid-ablation && npm install
       - name: Install, build, and upload your site
-        uses: withastro/action@v2
+        uses: withastro/action@v3
         with:
           # path: . # リポジトリ内のAstroプロジェクトのルートロケーション。(オプション)
           path: ./afraid-ablation/
