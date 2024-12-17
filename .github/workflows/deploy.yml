@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: '20.x'
       - name: Install dependencies
-        run: npm install
+        run: cd ./afraid-ablation && npm install
       - name: Install, build, and upload your site
         uses: withastro/action@v2
         with:
